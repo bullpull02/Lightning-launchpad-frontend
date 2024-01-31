@@ -7,7 +7,7 @@ const ColorCard = ({
   title = "Presales",
   text = "Explores presales of any size and king",
   link = "/presales",
-  BgColor = "linear-gradient(137deg, #FCBF07 0%, #695416 65.10%, #676252 100%)",
+  BgColor = "linear-gradient(137deg, #aaaaaaff 0%, #695416 65.10%, #676252 100%)",
 }) => {
   const router = useRouter();
 

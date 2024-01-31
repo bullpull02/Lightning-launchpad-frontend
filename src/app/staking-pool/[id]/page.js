@@ -25,7 +25,7 @@ export const data = [
 export const options = {
   pieHole: 0.6,
   is3D: false,
-  backgroundColor: "#1B1B1B",
+  backgroundColor: "#000000ff",
   legend: "none",
 };
 
@@ -86,11 +86,11 @@ const StakingPoolDetails = () => {
   return (
     <div className="min-h-[1340px] flex flex-row gap-[30px]">
       <div className="flex-auto w-[892px] flex flex-col gap-8">
-        <div className="bg-[#1B1B1B] rounded-[16px]">
+        <div className="bg-[#000000ff] rounded-[16px]">
           <div className="relative">
             <ExportedImage src={MetaIcon} alt="back" className="w-full h-48" />
             <ExportedImage
-              className="absolute w-[107px] h-[107px] top-[147px] left-[60px] rounded-full bg-[#1B1B1B]"
+              className="absolute w-[107px] h-[107px] top-[147px] left-[60px] rounded-full bg-[#000000ff]"
               src={YellowLogoIcon}
               alt="avatar"
             />
@@ -98,7 +98,7 @@ const StakingPoolDetails = () => {
             <div className="flex flex-col ml-[199px] mt-2">
               <p className="text-white text-[32px] font-semibold">Venom</p>
               <p className="text-sm text-[#FFFFFF]/[.85]">
-                Stake <span className="text-[#FCBF07]">XUSD</span>
+                Stake <span className="text-[#aaaaaaff]">XUSD</span>
               </p>
             </div>
           </div>
@@ -110,7 +110,7 @@ const StakingPoolDetails = () => {
             <div className="flex flex-row justify-between items-center pb-4">
               <div className="text-white text-base">Presales Address</div>
               <div className="flex flex-col items-end">
-                <p className="text-base text-[#FCBF07]">
+                <p className="text-base text-[#aaaaaaff]">
                   0x43024ad83760a9779236b409F8dC1FEbA172F840
                 </p>
               </div>
@@ -134,7 +134,7 @@ const StakingPoolDetails = () => {
       </div>
 
       <div className="flex-auto w-[631px] flex flex-col gap-8">
-        <div className="w-[100%] bg-[#1B1B1B] py-4 px-3 flex flex-row justify-center text-white text-[14px] gap-3 items-center rounded-[37px]">
+        <div className="w-[100%] bg-[#000000ff] py-4 px-3 flex flex-row justify-center text-white text-[14px] gap-3 items-center rounded-[37px]">
           <p>Connect Network To</p>
           <div className="flex flex-row justify-center items-center bg-[#282828] rounded-full p-2">
             <ExportedImage src={EtherIcon} alt="icon" />
@@ -142,7 +142,7 @@ const StakingPoolDetails = () => {
           <p>Ethereum</p>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px] p-7">
+        <div className="bg-[#000000ff] rounded-[16px] p-7">
           <div className="flex flex-col items-center justify-center text-white text-base pb-2">
             <p>Stake Ends In:</p>
             <p>55 days</p>
@@ -154,14 +154,14 @@ const StakingPoolDetails = () => {
           </div>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px] p-7">
+        <div className="bg-[#000000ff] rounded-[16px] p-7">
           <div className="flex flex-col">
             <div className="flex flex-row py-4 border-b border-[#2C2C2C] gap-16">
               <div className="w-[140px] text-base text-white">
                 Token Address
               </div>
               <div className="flex flex-row gap-1 items-center">
-                <p className="text-sm text-[#FCBF07]">
+                <p className="text-sm text-[#aaaaaaff]">
                   0x626b596dd10467EA969179235123F884e133074a
                 </p>
                 <ExportedImage src={CopyIcon} alt="icon" />
@@ -172,7 +172,7 @@ const StakingPoolDetails = () => {
               <div className="w-[140px] text-base text-white">Chart</div>
               <div className="flex flex-row gap-1 items-center">
                 <ExportedImage src={PoocoinIcon} alt="icon" />
-                <p className="text-sm text-[#FCBF07]">Poocoin</p>
+                <p className="text-sm text-[#aaaaaaff]">Poocoin</p>
               </div>
             </div>
           </div>

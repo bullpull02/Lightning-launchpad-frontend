@@ -34,7 +34,7 @@ const HeaderSection = () => {
           icon={Floki}
           className="max-sm:hidden max-md:hidden"
           text="FLOKI"
-          BgClass="bg-[#FCBF07]"
+          BgClass="bg-[#aaaaaaff]"
           py="py-[12px]"
           TxSize="text-[16px]"
           TxClass="text-[#000]"
@@ -43,14 +43,14 @@ const HeaderSection = () => {
           icon={Floki}
           className="hidden max-lg:hidden max-xl:hidden max-2xl:hidden max-sm:block max-md:block"
           text=""
-          BgClass="bg-[#FCBF07]"
+          BgClass="bg-[#aaaaaaff]"
           px="px-[10px]"
           py="py-[5px]"
           TxSize="text-[16px]"
           TxClass="text-[#000]"
         />
         {/* </div> */}
-        <div className="w-[calc(100%-288px)] max-sm:min-w-[240px] max-sm:w-[calc(100%-140px)] max-md:min-w-[600px] max-sm:w-[calc(100%-140px)] max-lg:min-w-[1200px] max-lg:w-[calc(100%-288px)] flex flex-row gap-x-[10px] px-3 py-2 rounded-full bg-[#1B1B1B]">
+        <div className="w-[calc(100%-288px)] max-sm:min-w-[240px] max-sm:w-[calc(100%-140px)] max-md:min-w-[600px] max-sm:w-[calc(100%-140px)] max-lg:min-w-[1200px] max-lg:w-[calc(100%-288px)] flex flex-row gap-x-[10px] px-3 py-2 rounded-full bg-[#000000ff]">
           <div className="flex flex-row justify-center items-center gap-3">
             <ExportedImage src={Hot} alt="hot" />
             <p className="text-[16px] text-[#fff] font-semibold hidden md:block lg:block">

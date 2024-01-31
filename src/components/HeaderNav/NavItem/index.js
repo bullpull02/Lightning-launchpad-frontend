@@ -18,14 +18,14 @@ const HeaderNavItem = ({
         <ExportedImage src={active ? active_icon : icon} alt="Image" />
         <p
           className={`${
-            active ? "text-[#FCBF07]" : "text-[#86888C]"
+            active ? "text-[#aaaaaaff]" : "text-[#86888C]"
           } text-[14px] capitalize`}
         >
           {text}
         </p>
       </div>
       {active && (
-        <div className="absolute -bottom-5 h-[4px] w-[100%] bg-[#FCBF07] rounded-t-2xl"></div>
+        <div className="absolute -bottom-5 h-[4px] w-[100%] bg-[#aaaaaaff] rounded-t-2xl"></div>
       )}
     </div>
   );

@@ -9,7 +9,7 @@ const DefaultSelect = ({
       {label && (
         <p className="text-white text-[14px]">
           {label}
-          {required && <span className="text-[#FCBF07]">*</span>}
+          {required && <span className="text-[#aaaaaaff]">*</span>}
         </p>
       )}
       <select

@@ -20,7 +20,7 @@ const FooterButton = () => {
       <button className="px-8 py-4 border border-[#86888C] rounded-[8px] text-center text-[#86888C] text-[20px] max-sm:text-sm max-sm:px-6">
         Reset
       </button>
-      <button className="px-8 py-4 border border-[#FCBF07] bg-[#FCBF07] rounded-[8px] text-center text-[#16171B] text-[20px] max-sm:text-sm max-sm:px-6">
+      <button className="px-8 py-4 border border-[#aaaaaaff] bg-[#aaaaaaff] rounded-[8px] text-center text-[#16171B] text-[20px] max-sm:text-sm max-sm:px-6">
         Create Token
       </button>
     </div>
@@ -45,7 +45,7 @@ const CreateToken = () => {
           <Success>
             <p className="text-white text-[14px]">
               All created tokens include an Audit. <br />
-              Audits can be found <span className="text-[#FCBF07]">here</span>.
+              Audits can be found <span className="text-[#aaaaaaff]">here</span>.
               Created tokens also get Audit badge on Flashlaunch presales
               automatically.
             </p>
@@ -53,7 +53,7 @@ const CreateToken = () => {
           <div className="flex flex-col pt-11 gap-8">
             <div>
               <DefaultSelect optons={tokenType} />
-              <span className="text-[14px] text-[#FCBF07]">Fee: 0.1 BNB</span>
+              <span className="text-[14px] text-[#aaaaaaff]">Fee: 0.1 BNB</span>
             </div>
 
             <div className="flex flex-row gap-8 max-sm:flex-col">

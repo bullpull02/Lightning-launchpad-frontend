@@ -48,7 +48,7 @@ const Burn = () => {
     <div className="relative min-h-[1340px] max-sm:min-h-[1000px]">
       <HeaderSection />
       <div className="flex flex-row justify-center">
-        <div className="mt-[105px] max-sm:mt-[30px] w-[760px] max-sm:w-[100%] bg-[#1B1B1B] border border-[#2C2C2C] rounded-[16px]">
+        <div className="mt-[105px] max-sm:mt-[30px] w-[760px] max-sm:w-[100%] bg-[#000000ff] border border-[#2C2C2C] rounded-[16px]">
           <ExportedImage src={BurnBack} alt="Image" />
           <div className="pt-[40px] px-5 pb-7">
             <p className="text-center text-white text-[42px] font-bold max-sm:text-2xl">
@@ -75,7 +75,7 @@ const Burn = () => {
                   {burnList.map((item, key) =>
                     active === key ? (
                       <tr
-                        className="bg-[#FCBF07] h-[49px] cursor-pointer border-none text-[#16171B]"
+                        className="bg-[#aaaaaaff] h-[49px] cursor-pointer border-none text-[#16171B]"
                         key={key}
                         onClick={() => setActive(key)}
                       >
@@ -116,7 +116,7 @@ const Burn = () => {
             <div className="flex flex-col mt-16">
               <IconBtn
                 text={page === 1 ? "Burn Floki" : "Validate Burn"}
-                BgClass="bg-[#FCBF07]"
+                BgClass="bg-[#aaaaaaff]"
                 rounded="rounded-[8px]"
                 TxClass="text-[#16171B]"
                 icon={Floki}

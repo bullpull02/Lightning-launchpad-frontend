@@ -171,7 +171,7 @@ const FlashAuditResult = () => {
       {result === "" ? (
         <div>
           <div className="flex flex-row justify-center">
-            <div className="mt-[105px] max-sm:w-3/4 max-md:w-3/4 max-lg:w-[760px] bg-[#1B1B1B] border border-[#2C2C2C] rounded-[16px] px-8 py-9 max-sm:px-5">
+            <div className="mt-[105px] max-sm:w-3/4 max-md:w-3/4 max-lg:w-[760px] bg-[#000000ff] border border-[#2C2C2C] rounded-[16px] px-8 py-9 max-sm:px-5">
               <div className="flex flex-col items-center gap-14">
                 <ExportedImage
                   src={FlashAudit}
@@ -200,7 +200,7 @@ const FlashAuditResult = () => {
                 <IconBtn
                   text="Check"
                   TxSize="text-[20px]"
-                  BgClass="bg-[#FCBF07]"
+                  BgClass="bg-[#aaaaaaff]"
                   rounded="rounded-[8px]"
                   TxClass="text-[#16171B]"
                   icon={SearchBlack}
@@ -232,7 +232,7 @@ const FlashAuditResult = () => {
             </div>
           </div>
           <div className="max-sm:overflow-y-scroll">
-            <div className="flex flex-row bg-[#1B1B1B] items-center justify-between w-[1554px] h-[84px] mt-[29px] pl-8 pr-3 rounded-[38px]">
+            <div className="flex flex-row bg-[#000000ff] items-center justify-between w-[1554px] h-[84px] mt-[29px] pl-8 pr-3 rounded-[38px]">
               <div className="flex flex-row justify-between items-center w-[851px]">
                 <div className="flex flex-row gap-2">
                   <div className="flex flex-col mr-2">
@@ -270,7 +270,7 @@ const FlashAuditResult = () => {
               <IconBtn
                 icon={PDFIcon}
                 text="Generate a Flash Audit ($200)"
-                BgClass="bg-[#FCBF07]"
+                BgClass="bg-[#aaaaaaff]"
                 TxClass="text-[#16171B]"
                 px="px-[16px]"
                 py="py-[16px]"
@@ -292,7 +292,7 @@ const FlashAuditResult = () => {
                         <ExportedImage src={CheckIcon} alt="Check" />
 
                         <div className="mt-[6px] flex flex-col gap-[18px]">
-                          <p className="text-[16px] text-[#FCBF07] font-bold">
+                          <p className="text-[16px] text-[#aaaaaaff] font-bold">
                             Trusted Token
                           </p>
                           <p className="text-[14px] text-[#86888C]">
@@ -317,7 +317,7 @@ const FlashAuditResult = () => {
                         />
                       )}
                       <div className="mt-[6px] flex flex-col gap-[18px]">
-                        <p className="text-[16px] text-[#FCBF07] font-bold">
+                        <p className="text-[16px] text-[#aaaaaaff] font-bold">
                           {result.is_open_source &&
                           result.is_open_source === "1"
                             ? "Contract source code verified"
@@ -347,7 +347,7 @@ const FlashAuditResult = () => {
                           />
                         )}
                         <div className="mt-[6px] flex flex-col gap-[18px]">
-                          <p className="text-[16px] text-[#FCBF07] font-bold">
+                          <p className="text-[16px] text-[#aaaaaaff] font-bold">
                             {result.is_proxy && result.is_proxy === "0"
                               ? "No proxy"
                               : "Proxy contract"}
@@ -378,7 +378,7 @@ const FlashAuditResult = () => {
                             />
                           )}
                           <div className="mt-[6px] flex flex-col gap-[18px]">
-                            <p className="text-[16px] text-[#FCBF07] font-bold">
+                            <p className="text-[16px] text-[#aaaaaaff] font-bold">
                               {result.is_mintable && result.is_mintable === "0"
                                 ? "No mint function"
                                 : "Mint function"}
@@ -409,7 +409,7 @@ const FlashAuditResult = () => {
                             />
                           )}
                           <div className="mt-[6px] flex flex-col gap-[18px]">
-                            <p className="text-[16px] text-[#FCBF07] font-bold">
+                            <p className="text-[16px] text-[#aaaaaaff] font-bold">
                               {result.can_take_back_ownership &&
                               result.can_take_back_ownership === "0"
                                 ? "No function found that retrieves ownership"
@@ -442,7 +442,7 @@ const FlashAuditResult = () => {
                             />
                           )}
                           <div className="mt-[6px] flex flex-col gap-[18px]">
-                            <p className="text-[16px] text-[#FCBF07] font-bold">
+                            <p className="text-[16px] text-[#aaaaaaff] font-bold">
                               {result.owner_change_balance &&
                               result.owner_change_balance === "0"
                                 ? "Owner can't change balance"
@@ -473,7 +473,7 @@ const FlashAuditResult = () => {
                           />
                         )}
                         <div className="mt-[6px] flex flex-col gap-[18px]">
-                          <p className="text-[16px] text-[#FCBF07] font-bold">
+                          <p className="text-[16px] text-[#aaaaaaff] font-bold">
                             {result.hidden_owner && result.hidden_owner === "0"
                               ? "No hidden owner"
                               : "Hidden owner"}
@@ -502,7 +502,7 @@ const FlashAuditResult = () => {
                           />
                         )}
                         <div className="mt-[6px] flex flex-col gap-[18px]">
-                          <p className="text-[16px] text-[#FCBF07] font-bold">
+                          <p className="text-[16px] text-[#aaaaaaff] font-bold">
                             {result.selfdestruct && result.selfdestruct === "0"
                               ? "This token can not self destruct"
                               : ""}
@@ -532,7 +532,7 @@ const FlashAuditResult = () => {
                           />
                         )}
                         <div className="mt-[6px] flex flex-col gap-[18px]">
-                          <p className="text-[16px] text-[#FCBF07] font-bold">
+                          <p className="text-[16px] text-[#aaaaaaff] font-bold">
                             {result.external_call &&
                             result.external_call === "0"
                               ? "No external call risk found"
@@ -554,7 +554,7 @@ const FlashAuditResult = () => {
                     <div className="max-w-[690px] flex flex-row items-start gap-3">
                       <ExportedImage src={CheckIcon} alt="Check" />
                       <div className="mt-[6px] flex flex-col gap-[18px]">
-                        <p className="text-[16px] text-[#FCBF07] font-bold">
+                        <p className="text-[16px] text-[#aaaaaaff] font-bold">
                           This token is not a gas abuser
                         </p>
                         <p className="text-[14px] text-[#86888C]">
@@ -571,13 +571,13 @@ const FlashAuditResult = () => {
                     <div className="flex flex-row gap-6">
                       <p className="text-white text-[16px] font-normal">
                         Buy Tax:{" "}
-                        <span className="text-[#FCBF07]">
+                        <span className="text-[#aaaaaaff]">
                           {result && Number(result.buy_tax * 100)}%
                         </span>
                       </p>
                       <p className="text-white text-[16px] font-normal">
                         Sell Tax:{" "}
-                        <span className="text-[#FCBF07]">
+                        <span className="text-[#aaaaaaff]">
                           {result && Number(result.sell_tax * 100)}%
                         </span>
                       </p>
@@ -602,7 +602,7 @@ const FlashAuditResult = () => {
                             />
                           )}
                           <div className="mt-[6px] flex flex-col gap-[18px]">
-                            <p className="text-[16px] text-[#FCBF07] font-bold">
+                            <p className="text-[16px] text-[#aaaaaaff] font-bold">
                               {result.is_honeypot && result.is_honeypot === "0"
                                 ? "This does not appear to be a honeypot."
                                 : ""}
@@ -633,7 +633,7 @@ const FlashAuditResult = () => {
                               />
                             )}
                             <div className="mt-[6px] flex flex-col gap-[18px]">
-                              <p className="text-[16px] text-[#FCBF07] font-bold">
+                              <p className="text-[16px] text-[#aaaaaaff] font-bold">
                                 {result.transfer_pausable &&
                                 result.transfer_pausable === "0"
                                   ? "No codes found to suspend trading."
@@ -666,7 +666,7 @@ const FlashAuditResult = () => {
                               />
                             )}
                             <div className="mt-[6px] flex flex-col gap-[18px]">
-                              <p className="text-[16px] text-[#FCBF07] font-bold">
+                              <p className="text-[16px] text-[#aaaaaaff] font-bold">
                                 {result.cannot_sell_all &&
                                 result.cannot_sell_all === "0"
                                   ? "Holders can sell all of the token"
@@ -697,7 +697,7 @@ const FlashAuditResult = () => {
                             />
                           )}
                           <div className="mt-[6px] flex flex-col gap-[18px]">
-                            <p className="text-[16px] text-[#FCBF07] font-bold">
+                            <p className="text-[16px] text-[#aaaaaaff] font-bold">
                               {result.cannot_buy && result.cannot_buy === "0"
                                 ? "The token can be bought"
                                 : ""}
@@ -728,7 +728,7 @@ const FlashAuditResult = () => {
                               />
                             )}
                             <div className="mt-[6px] flex flex-col gap-[18px]">
-                              <p className="text-[16px] text-[#FCBF07] font-bold">
+                              <p className="text-[16px] text-[#aaaaaaff] font-bold">
                                 {result.trading_cooldown &&
                                 result.trading_cooldown === "0"
                                   ? "No trading cooldown function"
@@ -760,7 +760,7 @@ const FlashAuditResult = () => {
                             />
                           )}
                           <div className="mt-[6px] flex flex-col gap-[18px]">
-                            <p className="text-[16px] text-[#FCBF07] font-bold">
+                            <p className="text-[16px] text-[#aaaaaaff] font-bold">
                               {result.is_anti_whale &&
                               result.is_anti_whale === "0"
                                 ? "No anti_whale(Unlimited number of transactions)"
@@ -793,7 +793,7 @@ const FlashAuditResult = () => {
                               />
                             )}
                             <div className="mt-[6px] flex flex-col gap-[18px]">
-                              <p className="text-[16px] text-[#FCBF07] font-bold">
+                              <p className="text-[16px] text-[#aaaaaaff] font-bold">
                                 {result.anti_whale_modifiable &&
                                 result.anti_whale_modifiable === "0"
                                   ? "Anti whale can not be modified"
@@ -826,7 +826,7 @@ const FlashAuditResult = () => {
                               />
                             )}
                             <div className="mt-[6px] flex flex-col gap-[18px]">
-                              <p className="text-[16px] text-[#FCBF07] font-bold">
+                              <p className="text-[16px] text-[#aaaaaaff] font-bold">
                                 {result.slippage_modifiable &&
                                 result.slippage_modifiable === "0"
                                   ? "Tax cannot be modified"
@@ -858,7 +858,7 @@ const FlashAuditResult = () => {
                             />
                           )}
                           <div className="mt-[6px] flex flex-col gap-[18px]">
-                            <p className="text-[16px] text-[#FCBF07] font-bold">
+                            <p className="text-[16px] text-[#aaaaaaff] font-bold">
                               {result.is_blacklisted &&
                               result.is_blacklisted === "0"
                                 ? "No blacklist"
@@ -890,7 +890,7 @@ const FlashAuditResult = () => {
                             />
                           )}
                           <div className="mt-[6px] flex flex-col gap-[18px]">
-                            <p className="text-[16px] text-[#FCBF07] font-bold">
+                            <p className="text-[16px] text-[#aaaaaaff] font-bold">
                               {result.is_whitelisted &&
                               result.is_whitelisted === "0"
                                 ? "No whitelist"
@@ -923,7 +923,7 @@ const FlashAuditResult = () => {
                               />
                             )}
                             <div className="mt-[6px] flex flex-col gap-[18px]">
-                              <p className="text-[16px] text-[#FCBF07] font-bold">
+                              <p className="text-[16px] text-[#aaaaaaff] font-bold">
                                 {result.personal_slippage_modifiable &&
                                 result.personal_slippage_modifiable === "0"
                                   ? "No tax changes found for personal addresses"
@@ -949,13 +949,13 @@ const FlashAuditResult = () => {
                   <div className="flex flex-col gap-2">
                     <div className="flex flex-row items-center justify-between">
                       <p className="text-sm text-[#86888C]">Token Symbol</p>
-                      <p className="text-sm font-bold text-[#FCBF07]">
+                      <p className="text-sm font-bold text-[#aaaaaaff]">
                         {result.token_symbol && result.token_symbol}
                       </p>
                     </div>
                     <div className="flex flex-row items-center justify-between">
                       <p className="text-sm text-[#86888C]">Token Name</p>
-                      <p className="text-sm font-bold text-[#FCBF07]">
+                      <p className="text-sm font-bold text-[#aaaaaaff]">
                         {result && result.token_name}
                       </p>
                     </div>
@@ -982,13 +982,13 @@ const FlashAuditResult = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row items-center justify-between">
                     <p className="text-sm text-[#86888C]">Token Holders</p>
-                    <p className="text-sm text-[#FCBF07]">
+                    <p className="text-sm text-[#aaaaaaff]">
                       {result && Number(result.holder_count)}
                     </p>
                   </div>
                   <div className="flex flex-row items-center justify-between">
                     <p className="text-sm text-[#86888C]">Total Supply</p>
-                    <p className="text-sm text-[#FCBF07]">
+                    <p className="text-sm text-[#aaaaaaff]">
                       {result && Number(result.total_supply).toFixed(2)}
                     </p>
                   </div>
@@ -1002,7 +1002,7 @@ const FlashAuditResult = () => {
                         className="absolute top-0 left-0 h-[31px] rounded-[4px] flex flex-row justify-end items-center pr-2"
                         style={{
                           background:
-                            "linear-gradient(90deg, rgba(252, 191, 7, 0.20) 0%, #FCBF07 100%)",
+                            "linear-gradient(90deg, rgba(252, 191, 7, 0.20) 0%, #aaaaaaff 100%)",
                           width: `${
                             result.holders &&
                             (topBalance(result.holders) * 100).toFixed(2)
@@ -1031,7 +1031,7 @@ const FlashAuditResult = () => {
                               <AddressShow address={item.address} len={4} />
                             )}
                           </p>
-                          <p className="text-sm text-[#FCBF07]">
+                          <p className="text-sm text-[#aaaaaaff]">
                             {(Number(item.balance) / 1000000).toFixed(3)}M (
                             {Number(item.percent * 100).toFixed(2)}
                             %)
@@ -1072,7 +1072,7 @@ const FlashAuditResult = () => {
                     <div className="flex flex-row items-center justify-between">
                       <div className="flex flex-row w-[220px] justify-between">
                         <p>Creator</p>
-                        <p className="text-[#FCBF07]">
+                        <p className="text-[#aaaaaaff]">
                           {result.creator_address && (
                             <AddressShow
                               address={result.creator_address}
@@ -1089,7 +1089,7 @@ const FlashAuditResult = () => {
                     <div className="flex flex-row items-center justify-between">
                       <div className="flex flex-row w-[220px] justify-between">
                         <p>Owner</p>
-                        <p className="text-[#FCBF07]">
+                        <p className="text-[#aaaaaaff]">
                           {result.owner_address && (
                             <AddressShow
                               address={result.owner_address}
@@ -1106,7 +1106,7 @@ const FlashAuditResult = () => {
                     <div className="flex flex-row items-center justify-between">
                       <div className="flex flex-row w-[220px] justify-between">
                         <p>DEX</p>
-                        <p className="text-[#FCBF07]">
+                        <p className="text-[#aaaaaaff]">
                           {result.dex && (
                             <AddressShow address={result.dex[0].pair} len={6} />
                           )}
@@ -1126,13 +1126,13 @@ const FlashAuditResult = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row items-center justify-between">
                     <p className="text-sm text-[#86888C]">LP Holders</p>
-                    <p className="text-sm text-[#FCBF07]">
+                    <p className="text-sm text-[#aaaaaaff]">
                       {result.lp_holder_count && result.lp_holder_count}
                     </p>
                   </div>
                   <div className="flex flex-row items-center justify-between">
                     <p className="text-sm text-[#86888C]">Total Supply</p>
-                    <p className="text-sm text-[#FCBF07]">
+                    <p className="text-sm text-[#aaaaaaff]">
                       {result.lp_total_supply &&
                         Number(result.lp_total_supply).toFixed(2)}
                     </p>
@@ -1147,7 +1147,7 @@ const FlashAuditResult = () => {
                         className="absolute top-0 left-0 h-[31px] min-w-[55px] rounded-[4px] flex flex-row justify-end items-center pr-2"
                         style={{
                           background:
-                            "linear-gradient(90deg, rgba(252, 191, 7, 0.20) 0%, #FCBF07 100%)",
+                            "linear-gradient(90deg, rgba(252, 191, 7, 0.20) 0%, #aaaaaaff 100%)",
                           width: `${Number(
                             (getLPLockedPercent(result.lp_holders) /
                               Number(result.lp_total_supply)) *
@@ -1180,7 +1180,7 @@ const FlashAuditResult = () => {
                             <AddressShow address={item.address} len={4} />
                           )}
                         </p>
-                        <p className="text-sm text-[#FCBF07]">
+                        <p className="text-sm text-[#aaaaaaff]">
                           {Number(item.balance).toFixed(3)} (
                           {Number(item.percent * 100).toFixed(2)}%)
                         </p>

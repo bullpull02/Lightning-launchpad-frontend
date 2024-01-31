@@ -13,19 +13,19 @@ import HeaderSection from "@/components/HeaderSection";
 export default function HomePage() {
   const flash_ecosystem = [
     {
-      title: "Flash Transfer",
+      title: "Lightning Transfer",
       text: "The best launchpad for professional teams",
     },
     {
-      title: "Flash Dex",
+      title: "Lightning Dex",
       text: "Launch a token sale with a few clicks.",
     },
     {
-      title: "Flash Wallet",
+      title: "Lightning Wallet",
       text: "Swap tokens and farming $PinkS.",
     },
     {
-      title: "Flash Staking",
+      title: "Lightning Staking",
       text: "Locking liquidity on PinkSwap.",
     },
     {
@@ -33,15 +33,15 @@ export default function HomePage() {
       text: "The first meme token on PinkMoon.",
     },
     {
-      title: "Flash Pay",
+      title: "Lightning Pay",
       text: "The first meme token on PinkMoon.",
     },
     {
-      title: "Flash Audit",
+      title: "Lightning Audit",
       text: "Crypto wallet, buy, store, exchange & earn.",
     },
     {
-      title: "Flash Launch",
+      title: "Lightning Launch",
       text: "Crypto wallet, buy, store, exchange & earn.",
     },
   ];
@@ -68,9 +68,9 @@ export default function HomePage() {
         <div className="grid grid-cols-4 max-2xl:grid-cols-1 gap-[24px] justify-center gap-x-7 mt-[56px] items-center">
           <ColorCard />
           <ColorCard
-            title="Flash Wallet"
+            title="Lightning Wallet"
             text="Discover our non-custodial wallet, unique in the world"
-            link="https://flash-wallet.com/"
+            link="https://lightning-wallet.com/"
             BgColor="linear-gradient(137deg, #784FFB 28.67%, #0096E9 100%)"
           />
           {/* <ColorCard
@@ -98,27 +98,27 @@ export default function HomePage() {
             BgColor="linear-gradient(137deg, #49E313 0%, #005E36 100%)"
           />
           <ColorCard
-            title="Flash Transfer"
+            title="Lightning Transfer"
             text="Create your own rewarding system"
-            link="https://flash-transfer.com"
+            link="https://lightning-transfer.com"
             BgColor="linear-gradient(152deg, rgba(249, 162, 37, 0.90) 0%, rgba(79, 65, 22, 0.90) 100%)"
           />
           <ColorCard
             title="Floki locker"
-            text="Block your tokens or liquidity with Floki Lock directly on Flash pad."
+            text="Block your tokens or liquidity with Floki Lock directly on Lightning pad."
             link="/launch/create-lock"
             BgColor="linear-gradient(137deg, #FC7B21 0%, #F4555C 100%)"
           />
           <ColorCard
-            title="Flash Club"
-            text="Join Flash Club by holding NFT"
-            link="https://rarible.com/flashtechno/sale"
+            title="Lightning Club"
+            text="Join Lightning Club by holding NFT"
+            link="https://rarible.com/lightningtechno/sale"
             BgColor="linear-gradient(137deg, #D4A918 0%, #F16806 100%)"
           />
         </div>
         <div className="flex flex-col justify-center items-center mt-[182px] max-sm:mt-[50px]">
           <p className="text-white text-[42px] text-center font-bold max-sm:text-2xl">
-            Flash Ecosystem
+            Lightning Ecosystem
           </p>
           <div className="grid grid-cols-4 max-2xl:grid-cols-3 max-xl:grid-cols-2 max-sm:grid-cols-1 gap-6 mt-[60px]">
             {flash_ecosystem.map((item, index) => (

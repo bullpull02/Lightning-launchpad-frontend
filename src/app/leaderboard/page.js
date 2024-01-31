@@ -17,19 +17,19 @@ const Leaderboard = () => {
   return (
     <div className="min-h-[1500px]">
       <div className="flex flex-row max-sm:flex-col h-[145px] max-sm:h-auto gap-[30px]">
-        <div className="w-[100%] bg-[#1B1B1B] rounded-[16px] max-sm:p-[25px] flex flex-col justify-center items-center gap-[10px] text-white">
+        <div className="w-[100%] bg-[#000000ff] rounded-[16px] max-sm:p-[25px] flex flex-col justify-center items-center gap-[10px] text-white">
           <p className="text-sm">Total success this week</p>
           <p className="text-[36px]">10</p>
         </div>
 
-        <div className="w-[100%] bg-[#1B1B1B] rounded-[16px] max-sm:p-[25px] flex flex-col justify-center items-center gap-[10px] text-white">
+        <div className="w-[100%] bg-[#000000ff] rounded-[16px] max-sm:p-[25px] flex flex-col justify-center items-center gap-[10px] text-white">
           <p className="text-sm">Total raised this week</p>
           <p className="text-[36px]">$226.5K</p>
         </div>
       </div>
 
       <div className="max-sm:overflow-x-scroll">
-        <div className="mt-6 p-7 bg-[#1B1B1B] rounded-2xl max-sm:w-[1600px]">
+        <div className="mt-6 p-7 bg-[#000000ff] rounded-2xl max-sm:w-[1600px]">
           <div className="flex flex-row pb-4 border-b border-b-[#2C2C2C] items-center">
             <div className="flex flex-row gap-[52px]">
               {Array.from({ length: 8 }).map((item, index) => (
@@ -40,13 +40,13 @@ const Leaderboard = () => {
                 >
                   <p
                     className={`text-base ${
-                      week === index ? "text-[#FCBF07]" : "text-white"
+                      week === index ? "text-[#aaaaaaff]" : "text-white"
                     }`}
                   >
                     Week 34/2023
                   </p>
                   {week === index && (
-                    <hr className="h-0.5 border-0 bg-[#FCBF07] w-[100%] absolute -bottom-[26px] left-0"></hr>
+                    <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[100%] absolute -bottom-[26px] left-0"></hr>
                   )}
                 </div>
               ))}
@@ -58,7 +58,7 @@ const Leaderboard = () => {
             </div>
             <div className="ml-3 rounded-lg border border-[#2C2C2C] py-2 px-5">
               <select
-                className="bg-[#1B1B1B] outline-none text-white"
+                className="bg-[#000000ff] outline-none text-white"
                 name=""
                 id=""
               >
@@ -86,7 +86,7 @@ const Leaderboard = () => {
                     <p className="text-xs">BABYSHIA</p>
                   </div>
                   <div>
-                    <p className="text-sm text-[#FCBF07]">
+                    <p className="text-sm text-[#aaaaaaff]">
                       192.62164141558847 ETH
                       <span className="text-[#86888C]"> - Listing time: </span>
                       2023.08.28 19:04
@@ -100,7 +100,7 @@ const Leaderboard = () => {
                   100.0%
                 </div>
                 <button
-                  className="py-[10px] px-[20px] bg-[#FCBF07] rounded-lg outline-none text-[13px] font-semibold"
+                  className="py-[10px] px-[20px] bg-[#aaaaaaff] rounded-lg outline-none text-[13px] font-semibold"
                   onClick={() => {
                     router.push("/presales/test");
                   }}

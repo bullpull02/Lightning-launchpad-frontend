@@ -33,7 +33,7 @@ const PresalesCard = ({
         <ExportedImage src={PresalesCardHeader} alt="image" />
       </div>
 
-      <div className="h-[572px] rounded-2xl bg-[#1B1B1B] overflow-hidden relative border border-[#2C2C2C]">
+      <div className="h-[572px] rounded-2xl bg-[#000000ff] overflow-hidden relative border border-[#2C2C2C]">
         <ExportedImage src={CardOneBack} alt="background" />
         <ExportedImage
           src={CardOneLogo}
@@ -49,8 +49,8 @@ const PresalesCard = ({
             <Badge />
             <Badge
               text="KYC"
-              BgClass="bg-[#FCBF0729]/[.16]"
-              TxColor="text-[#FCBF07]"
+              BgClass="bg-[#aaaaaaff29]/[.16]"
+              TxColor="text-[#aaaaaaff]"
             />
             <Badge
               text="KYB"
@@ -73,12 +73,12 @@ const PresalesCard = ({
             <p className="text-[#86888C] text-[16px]">Progress 602.26%</p>
 
             <div className="bg-[#2C2C2C] rounded-[150px] w-[326px] h-[12px] relative">
-              <div className="absolute bg-[#FCBF07] rounded-[150px] h-[12px] w-[173px]"></div>
+              <div className="absolute bg-[#aaaaaaff] rounded-[150px] h-[12px] w-[173px]"></div>
             </div>
 
             <div className="flex justify-between">
               <p className="text-[#86888c] text-[14px]">90.339ETH</p>
-              <p className="text-[#FCBF07] text-[14px]">0.5ETH</p>
+              <p className="text-[#aaaaaaff] text-[14px]">0.5ETH</p>
             </div>
           </div>
 
@@ -86,22 +86,22 @@ const PresalesCard = ({
             <div className="flex justify-between items-center">
               <p className="text-white text-[14px]">Softcap</p>
               <div className="flex flex-col w-[60%] h-[1px] border border-dashed border-[#2C2C2C]"></div>
-              <p className="text-[#FCBF07] text-[14px]">15 ETH</p>
+              <p className="text-[#aaaaaaff] text-[14px]">15 ETH</p>
             </div>
             <div className="flex justify-between items-center">
               <p className="text-white text-[14px]">Hardcap</p>
               <div className="flex flex-col w-[70%] h-[1px] border border-dashed border-[#2C2C2C]"></div>
-              <p className="text-[#FCBF07] text-[14px]">&</p>
+              <p className="text-[#aaaaaaff] text-[14px]">&</p>
             </div>
             <div className="flex justify-between items-center">
               <p className="text-white text-[14px]">Liquidity</p>
               <div className="flex flex-col w-[60%] h-[1px] border border-dashed border-[#2C2C2C]"></div>
-              <p className="text-[#FCBF07] text-[14px]">60%</p>
+              <p className="text-[#aaaaaaff] text-[14px]">60%</p>
             </div>
             <div className="flex justify-between items-center">
               <p className="text-white text-[14px]">Locked</p>
               <div className="flex flex-col w-[60%] h-[1px] border border-dashed border-[#2C2C2C]"></div>
-              <p className="text-[#FCBF07] text-[14px]">365 Days</p>
+              <p className="text-[#aaaaaaff] text-[14px]">365 Days</p>
             </div>
           </div>
           <hr className="h-px w-[366px] mt-6 -ml-5 bg-[#2C2C2C] border-0"></hr>
@@ -124,9 +124,9 @@ const PresalesCard = ({
               />
               <div
                 onClick={() => onHandleView()}
-                className="cursor-pointer px-2 py-1 rounded-md bg-[#FCBF07] bg-opacity-10"
+                className="cursor-pointer px-2 py-1 rounded-md bg-[#aaaaaaff] bg-opacity-10"
               >
-                <span className="text-[#FCBF07]"> View </span>
+                <span className="text-[#aaaaaaff]"> View </span>
               </div>
             </div>
           </div>

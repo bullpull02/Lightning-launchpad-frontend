@@ -111,7 +111,7 @@ const SideBar = ({ show, mobileView, setShow }) => {
       active: 14,
     },
     {
-      path: "/flash-audit-result",
+      path: "/light-audit-result",
       active: 16,
     },
   ];
@@ -156,7 +156,7 @@ const SideBar = ({ show, mobileView, setShow }) => {
         ></div>
       )}
       <div
-        className={`bg-[#1B1B1B] w-[286px] h-auto pb-10 shadow-[4px_0_10px_0_rgba(14,15,20,0.31)] z-10 ${
+        className={`bg-[#000000ff] w-[286px] h-auto pb-10 shadow-[4px_0_10px_0_rgba(14,15,20,0.31)] z-10 ${
           mobileView
             ? "fixed h-screen overflow-scroll z-50 transition-opacity duration-1000"
             : "relative"
@@ -168,7 +168,7 @@ const SideBar = ({ show, mobileView, setShow }) => {
           target="_self"
         >
           <ExportedImage src={logo} alt="logo" />
-          <p className="text-[#fff] text-[19.067px] font-bold">Flash launch</p>
+          <p className="text-[#fff] text-[19.067px] font-bold">Lightning launch</p>
         </Link>
 
         <div className="flex justify-center items-center">
@@ -180,12 +180,12 @@ const SideBar = ({ show, mobileView, setShow }) => {
             rel="noreferrer"
           >
             <button
-              className={`mt-[34px] px-6 py-3 flex justify-center items-center gap-2 rounded-[39px] h-[43px] bg-[#FCBF07]`}
+              className={`mt-[34px] px-6 py-3 flex justify-center items-center gap-2 rounded-[39px] h-[43px] bg-[#aaaaaaff]`}
             >
               <p
                 className={`text-[#16171B] text-base font-semibold capitalize`}
               >
-                Buy $Flash
+                Buy $LIGHT
               </p>
             </button>
           </Link>
@@ -283,12 +283,12 @@ const SideBar = ({ show, mobileView, setShow }) => {
               ]}
             />
             <NavItem
-              text="Flash Audit"
+              text="Lightning Audit"
               img={Audit}
               active_img={ActiveAudit}
               index="16"
               active={active === 16 && true}
-              path={"/flash-audit-result"}
+              path={"/light-audit-result"}
             />
           </div>
         </div>
@@ -297,7 +297,7 @@ const SideBar = ({ show, mobileView, setShow }) => {
           <NavItem
             text="Sponsorised by Floki"
             img={Sponsored}
-            BgClass="bg-[#FCBF07]"
+            BgClass="bg-[#aaaaaaff]"
             TxClass="text-[#16171B]"
           />
         </div>

@@ -78,7 +78,7 @@ const HeaderNav = ({ navActive, setNavActive, navType }) => {
   };
   return (
     <div className="max-sm:w-[100%] max-2xl:overflow-y-scroll">
-      <div className="flex gap-x-4 max-md:w-[900px] max-sm:w-[900px] max-lg:w-[1554px] h-[61px] rounded-[38px] bg-[#1B1B1B] px-7 py-3 items-center">
+      <div className="flex gap-x-4 max-md:w-[900px] max-sm:w-[900px] max-lg:w-[1554px] h-[61px] rounded-[38px] bg-[#000000ff] px-7 py-3 items-center">
         {navItem[navType]?.map((item) => (
           <HeaderNavItem
             icon={item.icon}

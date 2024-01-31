@@ -28,7 +28,7 @@ const Profile = () => {
   return (
     <div className="min-h-[1500px]">
       <HeaderSection />
-      <div className="p-7 bg-[#1B1B1B] rounded-[16px]">
+      <div className="p-7 bg-[#000000ff] rounded-[16px]">
         <div className="flex flex-col gap-3 pb-8 border-b border-[#2C2C2C]">
           <div className="flex flex-row gap-2">
             <p className="text-white text-[16px] break-words max-sm:max-w-[280px]">
@@ -36,10 +36,10 @@ const Profile = () => {
             </p>
             <ExportedImage src={CopyYelloIcon} alt="icon" />
           </div>
-          <p className="text-[16px] text-[#FCBF07]">0.639639 ETH</p>
+          <p className="text-[16px] text-[#aaaaaaff]">0.639639 ETH</p>
         </div>
         <div className="flex flex-row gap-4 mt-7 max-sm:w-[100%]">
-          <button className="py-3 px-5 rounded-lg bg-[#FCBF07] max-sm:w-[100%]">
+          <button className="py-3 px-5 rounded-lg bg-[#aaaaaaff] max-sm:w-[100%]">
             Share your profile
           </button>
           <button className="py-3 px-5 rounded-lg border border-[#2C2C2C] max-sm:w-[100%] text-[#86888C]">
@@ -48,7 +48,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="p-7 rounded-[16px] bg-[#1B1B1B] mt-6 min-h-[567px]">
+      <div className="p-7 rounded-[16px] bg-[#000000ff] mt-6 min-h-[567px]">
         <div className="max-sm:overflow-x-scroll">
           <div className="flex flex-row pb-5 border-b border-[#2C2C2C] gap-8 max-sm:w-[1500px]">
             {tabItems.map((item, index) => (
@@ -59,13 +59,13 @@ const Profile = () => {
               >
                 <p
                   className={`text-base ${
-                    tabActive === index ? "text-[#FCBF07]" : "text-white"
+                    tabActive === index ? "text-[#aaaaaaff]" : "text-white"
                   }`}
                 >
                   {item.name}
                 </p>
                 {tabActive === index && (
-                  <hr className="h-0.5 border-0 bg-[#FCBF07] w-[100%] absolute -bottom-[21px] left-0"></hr>
+                  <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[100%] absolute -bottom-[21px] left-0"></hr>
                 )}
               </div>
             ))}
@@ -137,7 +137,7 @@ const Profile = () => {
                   <p className="font-semibold">Flash</p>
                 </div>
               </div>
-              <p className="text-base text-[#FCBF07] cursor-pointer">View</p>
+              <p className="text-base text-[#aaaaaaff] cursor-pointer">View</p>
             </div>
           )}
           {tabActive === 3 && (
@@ -159,7 +159,7 @@ const Profile = () => {
                         <p className="font-semibold">Flash</p>
                       </div>
                     </div>
-                    <p className="text-base text-[#FCBF07] cursor-pointer">
+                    <p className="text-base text-[#aaaaaaff] cursor-pointer">
                       View
                     </p>
                   </div>
@@ -170,7 +170,7 @@ const Profile = () => {
                 <div className="w-[28px] h-[28px] bg-[#282828] rounded-[5.6px] flex flex-row justify-center items-center">
                   <ExportedImage src={PageLeftIcon} alt="page" />
                 </div>
-                <div className="w-[28px] h-[28px] bg-[#FCBF07] rounded-[5.6px] flex flex-row justify-center items-center">
+                <div className="w-[28px] h-[28px] bg-[#aaaaaaff] rounded-[5.6px] flex flex-row justify-center items-center">
                   <p className="text-base text-[#16171B]">1</p>
                 </div>
                 <div className="w-[28px] h-[28px] bg-[#282828] rounded-[5.6px] flex flex-row justify-center items-center">
@@ -199,7 +199,7 @@ const Profile = () => {
             liability for any loss occasioned. It is the users responsibility to
             do their own research and seek financial advice from a professional.
             More information about (DOR) can be found via{" "}
-            <span className="text-[#FCBF07]">Binance Academy</span>.
+            <span className="text-[#aaaaaaff]">Binance Academy</span>.
           </p>
         </div>
       )} */}
@@ -209,7 +209,7 @@ const Profile = () => {
           <div className="w-[28px] h-[28px] bg-[#282828] rounded-[5.6px] flex flex-row justify-center items-center">
             <ExportedImage src={PageLeftIcon} alt="page" />
           </div>
-          <div className="w-[28px] h-[28px] bg-[#FCBF07] rounded-[5.6px] flex flex-row justify-center items-center">
+          <div className="w-[28px] h-[28px] bg-[#aaaaaaff] rounded-[5.6px] flex flex-row justify-center items-center">
             <p className="text-base text-[#16171B]">1</p>
           </div>
           <div className="w-[28px] h-[28px] bg-[#282828] rounded-[5.6px] flex flex-row justify-center items-center">

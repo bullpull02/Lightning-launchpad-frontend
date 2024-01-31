@@ -14,9 +14,9 @@ import ExportedImage from "next-image-export-optimizer";
 const MultiSender = () => {
   return (
     <div className="min-h-[1500px]">
-      <div className="p-8 rounded-2xl bg-[#1B1B1B] flex flex-row justify-between relative">
+      <div className="p-8 rounded-2xl bg-[#000000ff] flex flex-row justify-between relative">
         <div className="flex flex-col items-center  gap-2">
-          <div className="w-[42px] h-[42px] bg-[#FCBF07] flex flex-row justify-center items-center rounded-full text-base">
+          <div className="w-[42px] h-[42px] bg-[#aaaaaaff] flex flex-row justify-center items-center rounded-full text-base">
             1
           </div>
           <p className="text-white text-base">Add Your Allocation</p>
@@ -38,7 +38,7 @@ const MultiSender = () => {
 
         <hr className="w-[76%] bg-[#2C2C2C] h-[2px] border-none absolute top-[53px] left-[12%]" />
       </div>
-      <div className="mt-4 p-8 rounded-2xl bg-[#1B1B1B] flex flex-col gap-8">
+      <div className="mt-4 p-8 rounded-2xl bg-[#000000ff] flex flex-col gap-8">
         <div>
           <Input label="TOKEN ADDRESS" placeholder="0" />
           <p className="text-[#86888C] text-base mt-2">
@@ -53,7 +53,7 @@ const MultiSender = () => {
             <button className="px-8 py-3 border border-[#86888C] rounded-lg outline-none text-xl text-[#86888C]">
               Or Choose From CSV File
             </button>
-            <p className="text-xl text-[#FCBF07] cursor-pointer">
+            <p className="text-xl text-[#aaaaaaff] cursor-pointer">
               Sample CSV file
             </p>
           </div>
@@ -84,7 +84,7 @@ const MultiSender = () => {
         any loss occasioned. It is the user(s) responsibility to do their own
         research and seek financial advice from a professional. More <br />
         information about (DYOR) can be found via{" "}
-        <span className="text-[#FCBF07]">Flashlaunch.</span>
+        <span className="text-[#aaaaaaff]">Flashlaunch.</span>
       </p> */}
     </div>
   );

@@ -62,7 +62,7 @@ const Header = ({ show, setShow }) => {
 
   return (
     <>
-      <div className="relative w-[calc(100vw-286px)] h-20 px-10 bg-[#1b1b1b]/[.99] ml-[-1px] flex items-center justify-between max-sm:hidden">
+      <div className="relative w-[calc(100vw-286px)] h-20 px-10 bg-[#000000ff]/[.99] ml-[-1px] flex items-center justify-between max-sm:hidden">
         <div className="flex gap-2">
           <IconBtn
             text="Home"
@@ -83,7 +83,7 @@ const Header = ({ show, setShow }) => {
           </Link>
           <Link href={"https://rarible.com/flashtechno/sale"} target="_blank">
             <IconBtn
-              text="Join flash club"
+              text="Join light club"
               icon={FlashClub}
               heigh="h-[37px]"
               iconHeight={25}
@@ -93,7 +93,7 @@ const Header = ({ show, setShow }) => {
             <IconBtn
               text="Burn Floki For get Whitelist"
               icon={Floki}
-              BgClass="bg-[#FCBF07]"
+              BgClass="bg-[#aaaaaaff]"
               TxClass="color-[#000]"
               heigh="h-[37px]"
               onClick={() => {
@@ -117,14 +117,14 @@ const Header = ({ show, setShow }) => {
           <IconBtn
             text="Create"
             icon={Add}
-            BgClass="bg-[#1b1b1b]"
-            TxClass="text-[#FCBF07]"
+            BgClass="bg-[#000000ff]"
+            TxClass="text-[#aaaaaaff]"
             TxSize="text-[14px]"
             rounded="rounded-[30px]"
             heigh="h-[35px]"
             px="px-[18px]"
             py="py-[5px]"
-            borderColor="border-[#FCBF07]"
+            borderColor="border-[#aaaaaaff]"
             onClick={() => setCreateShow(!createShow)}
           />
           <IconBtn
@@ -141,7 +141,7 @@ const Header = ({ show, setShow }) => {
           <IconBtn
             text="Connect"
             icon={Wallet}
-            BgClass="bg-[#FCBF07]"
+            BgClass="bg-[#aaaaaaff]"
             TxClass="text-[#16171B]"
             TxSize="text-[16px]"
             rounded="rounded-[30px]"
@@ -151,7 +151,7 @@ const Header = ({ show, setShow }) => {
           />
         </div>
         {lanShow && (
-          <div className="bg-[#1B1B1B] flex flex-col rounded-lg absolute top-[60px] right-[590px] z-50 pb-2">
+          <div className="bg-[#000000ff] flex flex-col rounded-lg absolute top-[60px] right-[590px] z-50 pb-2">
             {lanList.map((item, index) => (
               <div
                 key={index}
@@ -167,7 +167,7 @@ const Header = ({ show, setShow }) => {
 
         {netShow && (
           <div className="fixed flex top-0 left-0 w-screen h-screen z-50 justify-center items-center bg-[#000] bg-opacity-50">
-            <div className="bg-[#1B1B1B] rounded-lg w-[370px] pt-6 pb-4 border-solid border-2 border-[#2C2C2C]">
+            <div className="bg-[#000000ff] rounded-lg w-[370px] pt-6 pb-4 border-solid border-2 border-[#2C2C2C]">
               <div className="flex flex-row px-[20px] pb-[16px] justify-between">
                 <p className="text-white text-[20px]">Switch Network</p>
                 <ExportedImage
@@ -177,7 +177,7 @@ const Header = ({ show, setShow }) => {
                   onClick={() => setNetShow(false)}
                 />
               </div>
-              <div className="text-sm text-[#FCBF07] py-[13px] text-center">
+              <div className="text-sm text-[#aaaaaaff] py-[13px] text-center">
                 Mainnet
               </div>
               {mainnet.map((item, index) => (
@@ -191,7 +191,7 @@ const Header = ({ show, setShow }) => {
                 </div>
               ))}
 
-              <div className="text-sm text-[#FCBF07] py-[13px] text-center">
+              <div className="text-sm text-[#aaaaaaff] py-[13px] text-center">
                 Testnet
               </div>
 
@@ -217,8 +217,8 @@ const Header = ({ show, setShow }) => {
                 setCreateShow(false);
               }}
             ></div>
-            <div className="bg-[#1B1B1B] rounded-[8px] shadow-[0_8px_55px_0_rgba(0, 0, 0, 0.20)] py-6 absolute top-[90px] right-[300px] z-50 w-[400px] z-20">
-              <p className="text-center text-[#FCBF07] text-[25.6px]">Create</p>
+            <div className="bg-[#000000ff] rounded-[8px] shadow-[0_8px_55px_0_rgba(0, 0, 0, 0.20)] py-6 absolute top-[90px] right-[300px] z-50 w-[400px] z-20">
+              <p className="text-center text-[#aaaaaaff] text-[25.6px]">Create</p>
               <div className="flex flex-row px-[28.5px] py-[25px]">
                 <div className="flex flex-col gap-5 border-r-2 border-[#2C2C2C] pr-[39px] py-[15px]">
                   <button
@@ -226,7 +226,7 @@ const Header = ({ show, setShow }) => {
                       setCreateShow(false);
                       router.push("/launch/create-token");
                     }}
-                    className="outline-none border-2 border-[#FCBF07] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
+                    className="outline-none border-2 border-[#aaaaaaff] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
                   >
                     Token
                   </button>
@@ -235,7 +235,7 @@ const Header = ({ show, setShow }) => {
                       setCreateShow(false);
                       router.push("/launch/launchpad");
                     }}
-                    className="outline-none border-2 border-[#FCBF07] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
+                    className="outline-none border-2 border-[#aaaaaaff] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
                   >
                     Launchpad
                   </button>
@@ -244,7 +244,7 @@ const Header = ({ show, setShow }) => {
                       setCreateShow(false);
                       router.push("/launch/fair-launch");
                     }}
-                    className="outline-none border-2 border-[#FCBF07] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
+                    className="outline-none border-2 border-[#aaaaaaff] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
                   >
                     Fair Launch
                   </button>
@@ -255,7 +255,7 @@ const Header = ({ show, setShow }) => {
                       setCreateShow(false);
                       router.push("/launch/create-staking");
                     }}
-                    className="outline-none border-2 border-[#FCBF07] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
+                    className="outline-none border-2 border-[#aaaaaaff] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
                   >
                     Staking Pool
                   </button>
@@ -264,7 +264,7 @@ const Header = ({ show, setShow }) => {
                       setCreateShow(false);
                       router.push("/launch/create-lock");
                     }}
-                    className="outline-none border-2 border-[#FCBF07] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
+                    className="outline-none border-2 border-[#aaaaaaff] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
                   >
                     Lock
                   </button>
@@ -273,13 +273,13 @@ const Header = ({ show, setShow }) => {
                       setCreateShow(false);
                       router.push("/airdrop");
                     }}
-                    className="outline-none border-2 border-[#FCBF07] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
+                    className="outline-none border-2 border-[#aaaaaaff] rounded-[23px] flex flex-row items-center justify-center w-[131px] h-[41px] text-white text-[13px]"
                   >
                     Airdrop
                   </button>
                 </div>
               </div>
-              <p className="text-sm text-[#FCBF07] text-center">
+              <p className="text-sm text-[#aaaaaaff] text-center">
                 Apply For Flash Incubation
               </p>
             </div>
@@ -289,13 +289,13 @@ const Header = ({ show, setShow }) => {
       <div className="sm:hidden flex flex-row p-5 justify-between">
         <div className="flex flex-row items-center gap-1">
           <ExportedImage src={FlashIcon} alt="flash" />
-          <p className="text-white text-sm">Flash launch</p>
+          <p className="text-white text-sm">Lightning launch</p>
         </div>
         <div className="flex flex-row items-center gap-1">
           <IconBtn
             text="Connect"
             icon={null}
-            BgClass="bg-[#FCBF07]"
+            BgClass="bg-[#aaaaaaff]"
             TxClass="text-[#16171B]"
             TxSize="text-[16px]"
             rounded="rounded-[30px]"

@@ -26,7 +26,7 @@ const FooterButton = () => {
       <button className="px-8 py-4 border border-[#86888C] rounded-[8px] text-center text-[#86888C] text-[20px]">
         Reset
       </button>
-      <button className="px-8 py-4 border border-[#FCBF07] bg-[#FCBF07] rounded-[8px] text-center text-[#16171B] text-[20px]">
+      <button className="px-8 py-4 border border-[#aaaaaaff] bg-[#aaaaaaff] rounded-[8px] text-center text-[#16171B] text-[20px]">
         Lock
       </button>
     </div>
@@ -48,7 +48,7 @@ const CreateLocks = () => {
             <p className="text-white text-[14px]">
               Verified <br />
               Flashlaunch is Audited By:
-              <span className="text-[#FCBF07]"> Certik</span>
+              <span className="text-[#aaaaaaff]"> Certik</span>
             </p>
           </Success>
           <div className="mt-11 flex flex-col gap-8">

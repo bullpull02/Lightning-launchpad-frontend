@@ -22,13 +22,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* <!-- Primary Meta Tags --> */}
-        <title>Flash Launch</title>
+        <title>Lightning Launch</title>
         <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <link rel="apple-touch-icon" sizes="180x180" href="/logo.svg" />
         <link rel="icon" type="image/png" href="/logo.svg" sizes="32x32" />
         <link rel="shortcut icon" href="/logo.svg" />
 
-        <meta name="title" content="Flash Launch" />
+        <meta name="title" content="Lightning Launch" />
         <meta
           name="description"
           content="Launchpad revolutionary decentralized"
@@ -36,8 +36,8 @@ export default function RootLayout({ children }) {
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://flash-launch.com/" />
-        <meta property="og:title" content="Flash Launch" />
+        <meta property="og:url" content="https://lightning-launch.com/" />
+        <meta property="og:title" content="Lightning Launch" />
         <meta
           property="og:description"
           content="Launchpad revolutionary decentralized"
@@ -46,8 +46,8 @@ export default function RootLayout({ children }) {
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="/logo-big.png" />
-        <meta property="twitter:url" content="https://flash-launch.com/" />
-        <meta property="twitter:title" content="Flash Launch" />
+        <meta property="twitter:url" content="https://lightning-launch.com/" />
+        <meta property="twitter:title" content="Lightning Launch" />
         <meta
           property="twitter:description"
           content="Launchpad revolutionary decentralized"

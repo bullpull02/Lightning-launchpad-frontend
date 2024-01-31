@@ -64,35 +64,35 @@ const CreateStaking = () => {
 
   return (
     <div className="min-h-[1500px]">
-      <div className="bg-[#1B1B1B] rounded-2xl p-8 flex flex-row max-sm:hidden">
+      <div className="bg-[#000000ff] rounded-2xl p-8 flex flex-row max-sm:hidden">
         <div className="flex flex-col min-w-[328px] relative">
-          <p className="text-sm text-[#FCBF07]">Step 1</p>
+          <p className="text-sm text-[#aaaaaaff]">Step 1</p>
           <p className="text-lg text-white font-semibold mt-5">Verify Token</p>
           <p className="text-sm text-[#86888C] mt-4">
             Enter the token address <br /> and Verify
           </p>
           {step === 1 && (
-            <hr className="h-0.5 border-0 bg-[#FCBF07] w-[328px] absolute -top-8 left-0"></hr>
+            <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[328px] absolute -top-8 left-0"></hr>
           )}
         </div>
 
         <div className="flex flex-col min-w-[328px] relative">
-          <p className="text-sm text-[#FCBF07]">Step 2</p>
+          <p className="text-sm text-[#aaaaaaff]">Step 2</p>
           <p className="text-lg text-white font-semibold mt-5">
             Launchpad Information
           </p>
           <p className="text-sm text-[#86888C] mt-4">
             Enter the Fair Launch information, in <br /> case of trouble check
-            our <span className="text-[#FCBF07]">Docs</span>
+            our <span className="text-[#aaaaaaff]">Docs</span>
           </p>
 
           {step === 2 && (
-            <hr className="h-0.5 border-0 bg-[#FCBF07] w-[328px] absolute -top-8 left-0"></hr>
+            <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[328px] absolute -top-8 left-0"></hr>
           )}
         </div>
 
         <div className="flex flex-col min-w-[328px] relative">
-          <p className="text-sm text-[#FCBF07]">Step 3</p>
+          <p className="text-sm text-[#aaaaaaff]">Step 3</p>
           <p className="text-lg text-white font-semibold mt-5">
             Add Additional Info
           </p>
@@ -101,34 +101,34 @@ const CreateStaking = () => {
           </p>
 
           {step === 3 && (
-            <hr className="h-0.5 border-0 bg-[#FCBF07] w-[328px] absolute -top-8 left-0"></hr>
+            <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[328px] absolute -top-8 left-0"></hr>
           )}
         </div>
 
         <div className="flex flex-col min-w-[328px] relative">
-          <p className="text-sm text-[#FCBF07]">Step 4</p>
+          <p className="text-sm text-[#aaaaaaff]">Step 4</p>
           <p className="text-lg text-white font-semibold mt-5">Finish</p>
           <p className="text-sm text-[#86888C] mt-4">Review your information</p>
 
           {step === 4 && (
-            <hr className="h-0.5 border-0 bg-[#FCBF07] w-[328px] absolute -top-8 left-0"></hr>
+            <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[328px] absolute -top-8 left-0"></hr>
           )}
         </div>
       </div>
 
-      <div className="bg-[#1B1B1B] rounded-2xl p-5 flex-col gap-[50px] max-sm:flex hidden">
+      <div className="bg-[#000000ff] rounded-2xl p-5 flex-col gap-[50px] max-sm:flex hidden">
         <div className="flex flex-row gap-4">
           <div
             className={`w-[42px] h-[42px] rounded-full flex flex-row items-center justify-center text-base text-[black] font-extrabold ${
               step > 1 || step === 1
-                ? "bg-[#FCBF07] text-[black]"
+                ? "bg-[#aaaaaaff] text-[black]"
                 : "bg-[#86888C] text-[black]"
             }`}
           >
             1
           </div>
           <div className="flex flex-col">
-            <p className="text-xs text-[#FCBF07] font-medium">Step 1</p>
+            <p className="text-xs text-[#aaaaaaff] font-medium">Step 1</p>
             <p className="text-sm text-[white]/[0.85] font-semibold mt-3">
               Approve Token
             </p>
@@ -142,20 +142,20 @@ const CreateStaking = () => {
           <div
             className={`w-[42px] h-[42px] rounded-full flex flex-row items-center justify-center text-base font-extrabold ${
               step > 2 || step === 2
-                ? "bg-[#FCBF07] text-[black]"
+                ? "bg-[#aaaaaaff] text-[black]"
                 : "bg-[#86888C] text-[black]"
             }`}
           >
             2
           </div>
           <div className="flex flex-col max-w-[235px]">
-            <p className="text-xs text-[#FCBF07] font-medium">Step 2</p>
+            <p className="text-xs text-[#aaaaaaff] font-medium">Step 2</p>
             <p className="text-sm text-[white]/[0.85] font-semibold mt-3">
               Launchpad Information
             </p>
             <p className="text-xs text-[white]/[0.45] font-normal mt-[6px]">
               Enter the Fair Launch information, in case of trouble check our
-              <span className="text-[#FCBF07]"> Docs</span>
+              <span className="text-[#aaaaaaff]"> Docs</span>
             </p>
           </div>
         </div>
@@ -164,14 +164,14 @@ const CreateStaking = () => {
           <div
             className={`w-[42px] h-[42px] rounded-full flex flex-row items-center justify-center text-base font-extrabold ${
               step > 3 || step === 3
-                ? "bg-[#FCBF07] text-[black]"
+                ? "bg-[#aaaaaaff] text-[black]"
                 : "bg-[#86888C] text-[black]"
             }`}
           >
             3
           </div>
           <div className="flex flex-col">
-            <p className="text-xs text-[#FCBF07] font-medium">Step 3</p>
+            <p className="text-xs text-[#aaaaaaff] font-medium">Step 3</p>
             <p className="text-sm text-[white]/[0.85] font-semibold mt-3">
               Project Information
             </p>
@@ -185,14 +185,14 @@ const CreateStaking = () => {
           <div
             className={`w-[42px] h-[42px] rounded-full flex flex-row items-center justify-center text-base  font-extrabold ${
               step > 4 || step === 4
-                ? "bg-[#FCBF07] text-[black]"
+                ? "bg-[#aaaaaaff] text-[black]"
                 : "bg-[#86888C] text-[black]"
             }`}
           >
             4
           </div>
           <div className="flex flex-col">
-            <p className="text-xs text-[#FCBF07] font-medium">Step 4</p>
+            <p className="text-xs text-[#aaaaaaff] font-medium">Step 4</p>
             <p className="text-sm text-[white]/[0.85] font-semibold mt-3">
               Submit
             </p>
@@ -203,7 +203,7 @@ const CreateStaking = () => {
         </div>
       </div>
 
-      <div className="bg-[#1B1B1B] rounded-2xl p-8 mt-6">
+      <div className="bg-[#000000ff] rounded-2xl p-8 mt-6">
         {step === 1 && (
           <div className="flex flex-col gap-6">
             <Input
@@ -352,7 +352,7 @@ const CreateStaking = () => {
             <p className="text-xs text-[#FBBF04]">(*) is required field.</p>
             <div className="flex flex-row gap-6 max-sm:flex-col">
               <div className="flex flex-col w-[100%] gap-3">
-                <p className="text-sm text-[#FCBF07]">Banner (Not requared)</p>
+                <p className="text-sm text-[#aaaaaaff]">Banner (Not requared)</p>
                 <button className="bg-[#282828] rounded-[40px] flex flex-row w-[100%] py-[10px] justify-center items-center gap-3 shadow-[0_9px_37px_0_rgba(0, 0, 0, 0.20)]">
                   <ExportedImage src={CoverIcon} alt="" />
                   <p className="text-sm text-white max-sm:w-[175px]">
@@ -453,7 +453,7 @@ const CreateStaking = () => {
                 />
               </div>
             </div>
-            <p className="text-xs text-[#FCBF07]">
+            <p className="text-xs text-[#aaaaaaff]">
               Input your youtube URL, or youtube video ID.
             </p>
             <div className="flex flex-col gap-2">

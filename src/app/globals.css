@@ -8,12 +8,12 @@ input[type="radio"] {
   /* Remove most all native input styles */
   appearance: none;
   /* For iOS < 15 */
-  background-color: var(#fcbf07);
+  background-color: var(#aaaaaaff);
   /* Not removed via appearance */
   margin: 0;
 
   font: inherit;
-  color: #fcbf07;
+  color: #aaaaaaff;
   width: 1.15em;
   height: 1.15em;
   border: 0.1em solid #2c2c2c;
@@ -25,7 +25,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-  border: 0.1em solid #fcbf07;
+  border: 0.1em solid #aaaaaaff;
 }
 
 input[type="radio"]::before {
@@ -37,7 +37,7 @@ input[type="radio"]::before {
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(rgb(190, 21, 21));
   /* Windows High Contrast Mode */
-  background-color: #fcbf07;
+  background-color: #aaaaaaff;
 }
 
 input[type="radio"]:checked::before {
@@ -50,12 +50,12 @@ input[type="checkbox"] {
   /* Remove most all native input styles */
   appearance: none;
   /* For iOS < 15 */
-  background-color: var(#fcbf07);
+  background-color: var(#aaaaaaff);
   /* Not removed via appearance */
   margin: 0;
 
   font: inherit;
-  color: #fcbf07;
+  color: #aaaaaaff;
   width: 1.15em;
   height: 1.15em;
   border: 0.1em solid #2c2c2c;
@@ -67,7 +67,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  border: 0.1em solid #fcbf07;
+  border: 0.1em solid #aaaaaaff;
 }
 
 input[type="checkbox"]::before {
@@ -79,7 +79,7 @@ input[type="checkbox"]::before {
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(rgb(190, 21, 21));
   /* Windows High Contrast Mode */
-  background-color: #fcbf07;
+  background-color: #aaaaaaff;
 }
 
 input[type="checkbox"]:checked::before {

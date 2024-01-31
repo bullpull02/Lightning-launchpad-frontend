@@ -72,7 +72,7 @@ const TokenLock = () => {
   return (
     <div className="min-h-[1500px]">
       {page === 1 ? (
-        <div className="bg-[#1B1B1B] rounded-2xl w-full h-auto p-8 max-sm:p-5">
+        <div className="bg-[#000000ff] rounded-2xl w-full h-auto p-8 max-sm:p-5">
           <div className="relative">
             <input
               type="text"
@@ -112,8 +112,8 @@ const TokenLock = () => {
             >
               {activeTab === 1 ? (
                 <>
-                  <p className="text-[#FCBF07]">All</p>
-                  <div className="h-[4px] w-[100%] absolute left-0 -bottom-[4px] bg-[#FCBF07] rounded-t-2xl"></div>
+                  <p className="text-[#aaaaaaff]">All</p>
+                  <div className="h-[4px] w-[100%] absolute left-0 -bottom-[4px] bg-[#aaaaaaff] rounded-t-2xl"></div>
                 </>
               ) : (
                 <p>All</p>
@@ -128,8 +128,8 @@ const TokenLock = () => {
             >
               {activeTab === 2 ? (
                 <>
-                  <p className="text-[#FCBF07]">My Locks</p>
-                  <div className="h-[4px] w-[100%] absolute left-0 -bottom-[4px] bg-[#FCBF07] rounded-t-2xl"></div>
+                  <p className="text-[#aaaaaaff]">My Locks</p>
+                  <div className="h-[4px] w-[100%] absolute left-0 -bottom-[4px] bg-[#aaaaaaff] rounded-t-2xl"></div>
                 </>
               ) : (
                 <p>My Locks</p>
@@ -178,7 +178,7 @@ const TokenLock = () => {
                           500,000
                         </td>
                         <td
-                          className="py-5 border-b border-[#2C2C2C] w-[10%] text-[16px] max-sm:text-sm text-[#FCBF07] cursor-pointer"
+                          className="py-5 border-b border-[#2C2C2C] w-[10%] text-[16px] max-sm:text-sm text-[#aaaaaaff] cursor-pointer"
                           onClick={() => setPage(2)}
                         >
                           View
@@ -209,7 +209,7 @@ const TokenLock = () => {
                           500,000
                         </td>
                         <td
-                          className="py-5 border-b max-sm:text-sm border-[#2C2C2C] w-[10%] text-[16px] text-[#FCBF07] cursor-pointer"
+                          className="py-5 border-b max-sm:text-sm border-[#2C2C2C] w-[10%] text-[16px] text-[#aaaaaaff] cursor-pointer"
                           onClick={() => setPage(2)}
                         >
                           View
@@ -222,7 +222,7 @@ const TokenLock = () => {
           </table>
           {tableList.length > 0 && (
             <div
-              className="text-base text-[#FCBF07] mt-8 cursor-pointer"
+              className="text-base text-[#aaaaaaff] mt-8 cursor-pointer"
               onClick={() => setLoadMore(!loadMore)}
             >
               {loadMore === true ? "Load Less" : "Load More"}
@@ -231,7 +231,7 @@ const TokenLock = () => {
         </div>
       ) : (
         <div className="flex flex-col gap-5">
-          <div className="w-[100%] bg-[#1B1B1B] py-4 px-3 flex flex-row justify-center text-white text-[14px] gap-3 items-center rounded-[37px]">
+          <div className="w-[100%] bg-[#000000ff] py-4 px-3 flex flex-row justify-center text-white text-[14px] gap-3 items-center rounded-[37px]">
             <p>Connect Network To</p>
             <div className="flex flex-row justify-center items-center bg-[#282828] rounded-full p-2">
               <ExportedImage src={EtherIcon} alt="icon" />

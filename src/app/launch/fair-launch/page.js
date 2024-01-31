@@ -38,35 +38,35 @@ const FairLaunch = () => {
 
   return (
     <div className="min-h-[1500px]">
-      <div className="bg-[#1B1B1B] rounded-2xl p-8 flex flex-row max-sm:hidden">
+      <div className="bg-[#000000ff] rounded-2xl p-8 flex flex-row max-sm:hidden">
         <div className="flex flex-col min-w-[328px] relative">
-          <p className="text-sm text-[#FCBF07]">Step 1</p>
+          <p className="text-sm text-[#aaaaaaff]">Step 1</p>
           <p className="text-lg text-white font-semibold mt-5">Verify Token</p>
           <p className="text-sm text-[#86888C] mt-4">
             Enter the token address <br /> and Verify
           </p>
           {step === 1 && (
-            <hr className="h-0.5 border-0 bg-[#FCBF07] w-[328px] absolute -top-8 left-0"></hr>
+            <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[328px] absolute -top-8 left-0"></hr>
           )}
         </div>
 
         <div className="flex flex-col min-w-[328px] relative">
-          <p className="text-sm text-[#FCBF07]">Step 2</p>
+          <p className="text-sm text-[#aaaaaaff]">Step 2</p>
           <p className="text-lg text-white font-semibold mt-5">
             Launchpad Information
           </p>
           <p className="text-sm text-[#86888C] mt-4">
             Enter the Fair Launch information, in <br /> case of trouble check
-            our <span className="text-[#FCBF07]">Docs</span>
+            our <span className="text-[#aaaaaaff]">Docs</span>
           </p>
 
           {step === 2 && (
-            <hr className="h-0.5 border-0 bg-[#FCBF07] w-[328px] absolute -top-8 left-0"></hr>
+            <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[328px] absolute -top-8 left-0"></hr>
           )}
         </div>
 
         <div className="flex flex-col min-w-[328px] relative">
-          <p className="text-sm text-[#FCBF07]">Step 3</p>
+          <p className="text-sm text-[#aaaaaaff]">Step 3</p>
           <p className="text-lg text-white font-semibold mt-5">
             Add Additional Info
           </p>
@@ -75,34 +75,34 @@ const FairLaunch = () => {
           </p>
 
           {step === 3 && (
-            <hr className="h-0.5 border-0 bg-[#FCBF07] w-[328px] absolute -top-8 left-0"></hr>
+            <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[328px] absolute -top-8 left-0"></hr>
           )}
         </div>
 
         <div className="flex flex-col min-w-[328px] relative">
-          <p className="text-sm text-[#FCBF07]">Step 4</p>
+          <p className="text-sm text-[#aaaaaaff]">Step 4</p>
           <p className="text-lg text-white font-semibold mt-5">Finish</p>
           <p className="text-sm text-[#86888C] mt-4">Review your information</p>
 
           {step === 4 && (
-            <hr className="h-0.5 border-0 bg-[#FCBF07] w-[328px] absolute -top-8 left-0"></hr>
+            <hr className="h-0.5 border-0 bg-[#aaaaaaff] w-[328px] absolute -top-8 left-0"></hr>
           )}
         </div>
       </div>
 
-      <div className="bg-[#1B1B1B] rounded-2xl p-5 flex-col gap-[50px] max-sm:flex hidden">
+      <div className="bg-[#000000ff] rounded-2xl p-5 flex-col gap-[50px] max-sm:flex hidden">
         <div className="flex flex-row gap-4">
           <div
             className={`w-[42px] h-[42px] rounded-full flex flex-row items-center justify-center text-base text-[black] font-extrabold ${
               step > 1 || step === 1
-                ? "bg-[#FCBF07] text-[black]"
+                ? "bg-[#aaaaaaff] text-[black]"
                 : "bg-[#86888C] text-[black]"
             }`}
           >
             1
           </div>
           <div className="flex flex-col">
-            <p className="text-xs text-[#FCBF07] font-medium">Step 1</p>
+            <p className="text-xs text-[#aaaaaaff] font-medium">Step 1</p>
             <p className="text-sm text-[white]/[0.85] font-semibold mt-3">
               Approve Token
             </p>
@@ -116,20 +116,20 @@ const FairLaunch = () => {
           <div
             className={`w-[42px] h-[42px] rounded-full flex flex-row items-center justify-center text-base font-extrabold ${
               step > 2 || step === 2
-                ? "bg-[#FCBF07] text-[black]"
+                ? "bg-[#aaaaaaff] text-[black]"
                 : "bg-[#86888C] text-[black]"
             }`}
           >
             2
           </div>
           <div className="flex flex-col max-w-[235px]">
-            <p className="text-xs text-[#FCBF07] font-medium">Step 2</p>
+            <p className="text-xs text-[#aaaaaaff] font-medium">Step 2</p>
             <p className="text-sm text-[white]/[0.85] font-semibold mt-3">
               Launchpad Information
             </p>
             <p className="text-xs text-[white]/[0.45] font-normal mt-[6px]">
               Enter the Fair Launch information, in case of trouble check our
-              <span className="text-[#FCBF07]"> Docs</span>
+              <span className="text-[#aaaaaaff]"> Docs</span>
             </p>
           </div>
         </div>
@@ -138,14 +138,14 @@ const FairLaunch = () => {
           <div
             className={`w-[42px] h-[42px] rounded-full flex flex-row items-center justify-center text-base font-extrabold ${
               step > 3 || step === 3
-                ? "bg-[#FCBF07] text-[black]"
+                ? "bg-[#aaaaaaff] text-[black]"
                 : "bg-[#86888C] text-[black]"
             }`}
           >
             3
           </div>
           <div className="flex flex-col">
-            <p className="text-xs text-[#FCBF07] font-medium">Step 3</p>
+            <p className="text-xs text-[#aaaaaaff] font-medium">Step 3</p>
             <p className="text-sm text-[white]/[0.85] font-semibold mt-3">
               Project Information
             </p>
@@ -159,14 +159,14 @@ const FairLaunch = () => {
           <div
             className={`w-[42px] h-[42px] rounded-full flex flex-row items-center justify-center text-base  font-extrabold ${
               step > 4 || step === 4
-                ? "bg-[#FCBF07] text-[black]"
+                ? "bg-[#aaaaaaff] text-[black]"
                 : "bg-[#86888C] text-[black]"
             }`}
           >
             4
           </div>
           <div className="flex flex-col">
-            <p className="text-xs text-[#FCBF07] font-medium">Step 4</p>
+            <p className="text-xs text-[#aaaaaaff] font-medium">Step 4</p>
             <p className="text-sm text-[white]/[0.85] font-semibold mt-3">
               Submit
             </p>
@@ -177,7 +177,7 @@ const FairLaunch = () => {
         </div>
       </div>
 
-      <div className="bg-[#1B1B1B] rounded-2xl p-8 mt-6 max-sm:p-5">
+      <div className="bg-[#000000ff] rounded-2xl p-8 mt-6 max-sm:p-5">
         {step === 1 && (
           <div className="flex flex-col gap-8">
             <div className="flex flex-row justify-between max-sm:flex-col-reverse max-sm:gap-8">
@@ -246,7 +246,7 @@ const FairLaunch = () => {
                     />
                     <p className="text-sm text-[#BCBBB9]">
                       3.5% BNB raised only{" "}
-                      <span className="text-[#FCBF07]">(Recommended)</span>
+                      <span className="text-[#aaaaaaff]">(Recommended)</span>
                     </p>
                   </div>
                   <div className="flex flex-row gap-2 items-center">
@@ -340,7 +340,7 @@ const FairLaunch = () => {
                   <p>Enable</p>
                 </div>
               </div>
-              <p className="text-xs text-[#FCBF07]">
+              <p className="text-xs text-[#aaaaaaff]">
                 You can enable/disable whitelist anytime (If you activate the
                 whitelist our members who use the floki whitelist function can
                 access your whitelist)
@@ -381,7 +381,7 @@ const FairLaunch = () => {
                   <p className="text-sm text-[#BCBBB9]">Enable Buyback?</p>
                 </div>
               </div>
-              <p className="text-xs text-[#FCBF07]">
+              <p className="text-xs text-[#aaaaaaff]">
                 Enter the percentage of raised funds that should be allocated to
                 Liquidity on (Min 51%, Max 100%) <br />
                 If I spend 1 on how many tokens will I receive? Usually this
@@ -413,7 +413,7 @@ const FairLaunch = () => {
                       className="absolute top-4 right-5"
                     />
                   </div>
-                  <p className="text-xs text-[#FCBF07]">
+                  <p className="text-xs text-[#aaaaaaff]">
                     The duration between start time and end time must be less
                     than 10080 minutes
                   </p>
@@ -449,7 +449,7 @@ const FairLaunch = () => {
             </div>
 
             <div className="flex flex-col gap-6">
-              <p className="text-right text-sm text-[#FCBF07] max-sm:text-center">
+              <p className="text-right text-sm text-[#aaaaaaff] max-sm:text-center">
                 Need 0 FLASH to create launchpad.
               </p>
               <div className="flex flex-row justify-end gap-5 max-sm:w-[100%]">
@@ -481,7 +481,7 @@ const FairLaunch = () => {
                   placeholder="Ex: https://..."
                   icon={LogoURLIcon}
                 />
-                <p className="text-xs text-[#FCBF07] mt-[6px]">
+                <p className="text-xs text-[#aaaaaaff] mt-[6px]">
                   URL must end with a supported image extension png, jpg, jpeg
                   or gif. You can upload your image at
                   <br />
@@ -564,7 +564,7 @@ const FairLaunch = () => {
                 icon={YoutubeIcon}
               />
             </div>
-            <p className="text-xs text-[#FCBF07]">
+            <p className="text-xs text-[#aaaaaaff]">
               Input your youtube URL, or youtube video ID.
             </p>
             <div className="flex flex-col gap-2">
@@ -603,7 +603,7 @@ const FairLaunch = () => {
             <div className="flex flex-col">
               <div className="py-4 flex flex-row justify-between items-center text-base text-white border-b border-b-[#2C2C2C]">
                 <p>Total token</p>
-                <p className="text-[#FCBF07]">100,290.7 FLASH</p>
+                <p className="text-[#aaaaaaff]">100,290.7 FLASH</p>
               </div>
 
               <div className="py-4 flex flex-row justify-between items-center text-base text-white border-b border-b-[#2C2C2C]">
@@ -653,7 +653,7 @@ const FairLaunch = () => {
 
               <div className="py-4 flex flex-row justify-between items-center text-base text-white border-b border-b-[#2C2C2C]">
                 <p>Website</p>
-                <p className="text-[#FCBF07]">flash-technologies.org</p>
+                <p className="text-[#aaaaaaff]">flash-technologies.org</p>
               </div>
 
               <div className="py-4 flex flex-row justify-between items-center text-base text-white border-b border-b-[#2C2C2C]">

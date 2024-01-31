@@ -33,7 +33,7 @@ export const data = [
 export const options = {
   pieHole: 0.6,
   is3D: false,
-  backgroundColor: "#1B1B1B",
+  backgroundColor: "#000000ff",
   legend: "none",
 };
 
@@ -126,7 +126,7 @@ const PresalesDetails = () => {
   return (
     <div className="min-h-[1340px] flex flex-row gap-[30px] max-sm:flex-col">
       <div className="flex-auto w-[892px] max-sm:w-[100%] flex flex-col gap-8">
-        <div className="bg-[#1B1B1B] rounded-[16px]">
+        <div className="bg-[#000000ff] rounded-[16px]">
           <div className="relative">
             <ExportedImage src={BackImage} alt="back" />
             <ExportedImage
@@ -155,7 +155,7 @@ const PresalesDetails = () => {
               <div className="py-2 px-3 rounded-[40px] bg-[#5abaff]/[0.1] text-xs text-[#5ABAFF] ml-5 max-sm:hidden">
                 Audit
               </div>
-              <div className="py-2 px-3 rounded-[40px] bg-[#FCBF07]/[0.1] text-xs text-[#FCBF07] ml-2 max-sm:hidden">
+              <div className="py-2 px-3 rounded-[40px] bg-[#aaaaaaff]/[0.1] text-xs text-[#aaaaaaff] ml-2 max-sm:hidden">
                 Flash Transfer
               </div>
             </div> */}
@@ -177,7 +177,7 @@ const PresalesDetails = () => {
             <div className="flex flex-row justify-between items-center pb-4">
               <div className="text-white text-base">Presales Address</div>
               <div className="flex flex-col items-end max-sm:w-[142px]">
-                <p className="text-base text-[#FCBF07]">0x430....840</p>
+                <p className="text-base text-[#aaaaaaff]">0x430....840</p>
                 <p className="text-xs text-white">
                   Do not send ETH directly to the presale address!
                 </p>
@@ -202,7 +202,7 @@ const PresalesDetails = () => {
           </div>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px]">
+        <div className="bg-[#000000ff] rounded-[16px]">
           <div className="px-[26px] py-6 text-white text-2xl font-semibold border-b border-[#2C2C2C]">
             Affiliate Program
           </div>
@@ -270,13 +270,13 @@ const PresalesDetails = () => {
                 </div>
               ))}
             </div>
-            <div className="text-base text-[#FCBF07] underline text-center mt-3 cursor-pointer">
+            <div className="text-base text-[#aaaaaaff] underline text-center mt-3 cursor-pointer">
               View all
             </div>
           </div>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px]">
+        <div className="bg-[#000000ff] rounded-[16px]">
           <div className="px-[26px] py-6 text-white text-2xl font-semibold border-b border-[#2C2C2C]">
             Team Token Vesting Schedule:
           </div>
@@ -297,7 +297,7 @@ const PresalesDetails = () => {
           </div>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px]">
+        <div className="bg-[#000000ff] rounded-[16px]">
           <div className="px-[26px] py-6 text-white text-2xl font-semibold border-b border-[#2C2C2C]">
             Flash Transfer - Find location
           </div>
@@ -327,7 +327,7 @@ const PresalesDetails = () => {
             alt="image"
             className="ml-[236px]"
           />
-          <div className="bg-[#1B1B1B] rounded-[16px] p-7 flex flex-col gap-6">
+          <div className="bg-[#000000ff] rounded-[16px] p-7 flex flex-col gap-6">
             <div className="py-[10px] px-[17px] border border-[#B78103] bg-[#7A4F01]/[.06] text-[#FFF7CD] text-sm rounded-lg">
               Make sure the website is flashlaunch!
             </div>
@@ -335,16 +335,16 @@ const PresalesDetails = () => {
             <div className="flex flex-col items-center gap-3">
               <p className="text-white text-base">Presales Ends In</p>
               <div className="flex flex-row gap-2">
-                <div className="w-[36px] h-[36px] bg-[#FCBF07] flex-col flex justify-center items-center text-[#16171B] text-base rounded-[4px] font-bold">
+                <div className="w-[36px] h-[36px] bg-[#aaaaaaff] flex-col flex justify-center items-center text-[#16171B] text-base rounded-[4px] font-bold">
                   01
                 </div>
-                <div className="w-[36px] h-[36px] bg-[#FCBF07] flex-col flex justify-center items-center text-[#16171B] text-base rounded-[4px] font-bold">
+                <div className="w-[36px] h-[36px] bg-[#aaaaaaff] flex-col flex justify-center items-center text-[#16171B] text-base rounded-[4px] font-bold">
                   23
                 </div>
-                <div className="w-[36px] h-[36px] bg-[#FCBF07] flex-col flex justify-center items-center text-[#16171B] text-base rounded-[4px] font-bold">
+                <div className="w-[36px] h-[36px] bg-[#aaaaaaff] flex-col flex justify-center items-center text-[#16171B] text-base rounded-[4px] font-bold">
                   40
                 </div>
-                <div className="w-[36px] h-[36px] bg-[#FCBF07] flex-col flex justify-center items-center text-[#16171B] text-base rounded-[4px] font-bold">
+                <div className="w-[36px] h-[36px] bg-[#aaaaaaff] flex-col flex justify-center items-center text-[#16171B] text-base rounded-[4px] font-bold">
                   50
                 </div>
               </div>
@@ -365,9 +365,9 @@ const PresalesDetails = () => {
               <div className="relative">
                 <input
                   type="text"
-                  className="py-3 px-4 rounded-lg border border-[#2C2C2C] bg-[#1B1B1B] outline-none w-[100%] text-sm text-[#86888C]"
+                  className="py-3 px-4 rounded-lg border border-[#2C2C2C] bg-[#000000ff] outline-none w-[100%] text-sm text-[#86888C]"
                 />
-                <div className="text-base text-[#FCBF07] font-bold absolute top-3 right-3 cursor-pointer">
+                <div className="text-base text-[#aaaaaaff] font-bold absolute top-3 right-3 cursor-pointer">
                   MAX
                 </div>
               </div>
@@ -381,15 +381,15 @@ const PresalesDetails = () => {
               </button>
             </div>
 
-            <div className="text-[#FCBF07] text-base underline cursor-pointer">
+            <div className="text-[#aaaaaaff] text-base underline cursor-pointer">
               Affiliate detail
             </div>
           </div>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px] p-7">
+        <div className="bg-[#000000ff] rounded-[16px] p-7">
           <div className="h-[16px] w-[100%] bg-[#282828] rounded-[40px]">
-            <div className="h-[16px] w-[137px] bg-[#FCBF07] rounded-[40px]"></div>
+            <div className="h-[16px] w-[137px] bg-[#aaaaaaff] rounded-[40px]"></div>
           </div>
           <div className="flex flex-row justify-center mt-1">
             <div className="w-[32px] h-[32px] flex flex-col justify-center items-center">
@@ -399,11 +399,11 @@ const PresalesDetails = () => {
           <div className="flex flex-col">
             <div className="flex flex-row text-base text-white py-4 justify-between border-b border-[#2C2C2C]">
               <p>Status</p>
-              <p className="text-[#FCBF07]">Inprogress</p>
+              <p className="text-[#aaaaaaff]">Inprogress</p>
             </div>
             <div className="flex flex-row text-base text-white py-4 justify-between border-b border-[#2C2C2C]">
               <p>Sale Type</p>
-              <p className="text-[#FCBF07]">Public</p>
+              <p className="text-[#aaaaaaff]">Public</p>
             </div>
             <div className="flex flex-row text-base text-white py-4 justify-between border-b border-[#2C2C2C]">
               <p>Minimum Buy</p>
@@ -420,7 +420,7 @@ const PresalesDetails = () => {
           </div>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px] p-7">
+        <div className="bg-[#000000ff] rounded-[16px] p-7">
           <p className="text-white text-2xl text-center">Listed on DEX</p>
           <div className="mt-3 flex flex-col text-white text-base">
             <div className="flex flex-row items-center py-4 border-b border-[#2C2C2C]">
@@ -436,21 +436,21 @@ const PresalesDetails = () => {
               <div className="w-[204px]">Listed On</div>
               <div className="flex flex-row gap-2">
                 <ExportedImage src={PancakeswapIcon} alt="icon" />
-                <div className="text-[#FCBF07] text-base">PancakeSwap</div>
+                <div className="text-[#aaaaaaff] text-base">PancakeSwap</div>
               </div>
             </div>
             <div className="flex flex-row items-center py-4 border-b border-[#2C2C2C]">
               <div className="w-[204px]">Listed On</div>
               <div className="flex flex-row gap-2">
                 <ExportedImage src={BubblemapsIcon} alt="icon" />
-                <div className="text-[#FCBF07] text-base">Bubblemaps</div>
+                <div className="text-[#aaaaaaff] text-base">Bubblemaps</div>
               </div>
             </div>
             <div className="flex flex-row items-center py-4 border-b border-[#2C2C2C]">
               <div className="w-[204px]">Chart</div>
               <div className="flex flex-row gap-2">
                 <ExportedImage src={GeckoterminalIcon} alt="icon" />
-                <div className="text-[#FCBF07] text-base">GeckoTerminal</div>
+                <div className="text-[#aaaaaaff] text-base">GeckoTerminal</div>
               </div>
             </div>
           </div>
@@ -467,38 +467,38 @@ const PresalesDetails = () => {
               <div className="w-[145px] text-white text-base">
                 Contract Verfied
               </div>
-              <div className="text-base text-[#FCBF07]">true</div>
+              <div className="text-base text-[#aaaaaaff]">true</div>
             </div>
             <div className="flex flex-row gap-[60px] items-center py-4 border-b border-[#2C2C2C]">
               <div className="w-[145px] text-white text-base">Buy Tax</div>
-              <div className="text-base text-[#FCBF07]">5%</div>
+              <div className="text-base text-[#aaaaaaff]">5%</div>
             </div>
             <div className="flex flex-row gap-[60px] items-center py-4 border-b border-[#2C2C2C]">
               <div className="w-[145px] text-white text-base">Sell Tax</div>
-              <div className="text-base text-[#FCBF07]">10%</div>
+              <div className="text-base text-[#aaaaaaff]">10%</div>
             </div>
             <div className="flex flex-row gap-[60px] items-center py-4 border-b border-[#2C2C2C]">
               <div className="w-[145px] text-white text-base">Mintable</div>
-              <div className="text-base text-[#FCBF07]">false</div>
+              <div className="text-base text-[#aaaaaaff]">false</div>
             </div>
             <div className="flex flex-row gap-[60px] items-center py-4 border-b border-[#2C2C2C]">
               <div className="w-[145px] text-white text-base">
                 Transfer Pausable
               </div>
-              <div className="text-base text-[#FCBF07]">false</div>
+              <div className="text-base text-[#aaaaaaff]">false</div>
             </div>
             <div className="flex flex-row gap-[60px] items-center py-4 border-b border-[#2C2C2C]">
               <div className="w-[145px] text-white text-base">Blacklist</div>
-              <div className="text-base text-[#FCBF07]">false</div>
+              <div className="text-base text-[#aaaaaaff]">false</div>
             </div>
           </div>
 
-          <div className="text-[#FCBF07] text-base mt-4 cursor-pointer">
+          <div className="text-[#aaaaaaff] text-base mt-4 cursor-pointer">
             More info
           </div>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px]">
+        <div className="bg-[#000000ff] rounded-[16px]">
           <div className="pt-6 pb-4 text-center text-white text-2xl border-b border-[#2C2C2C]">
             Owner Zone
           </div>
@@ -534,11 +534,11 @@ const PresalesDetails = () => {
                 <button className="flex flex-col justify-center items-center text-base text-[#86888C] p-3 w-[100%] rounded-[8px] bg-[#282828]">
                   Update Affiliate Program
                 </button>
-                <p className="text-sm text-[#FCBF07]">
+                <p className="text-sm text-[#aaaaaaff]">
                   Pool Fee: 2% ETH raised + 2% token sold
                 </p>
               </div>
-              <button className="flex flex-col justify-center items-center text-base text-white p-3 w-[100%] rounded-[8px] bg-[#1B1B1B] border border-[#2C2C2C]">
+              <button className="flex flex-col justify-center items-center text-base text-white p-3 w-[100%] rounded-[8px] bg-[#000000ff] border border-[#2C2C2C]">
                 List of Contributors
               </button>
               <button className="flex flex-col justify-center items-center text-base text-[#86888C] p-3 w-[100%] rounded-[8px] bg-[#282828]">
@@ -559,7 +559,7 @@ const PresalesDetails = () => {
           </div>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px]">
+        <div className="bg-[#000000ff] rounded-[16px]">
           <div className="pt-6 pb-4 text-center text-white text-2xl border-b border-[#2C2C2C]">
             Tokenomics - Supply Distribution
           </div>
@@ -571,7 +571,7 @@ const PresalesDetails = () => {
             <div className="flex flex-col items-center text-white text-sm mt-6 gap-2">
               <div className="flex flex-row items-center justify-center gap-6">
                 <div className="flex flex-row items-center gap-1">
-                  <div className="w-[12px] h-[12px] bg-[#FCBF07] rounded-full"></div>
+                  <div className="w-[12px] h-[12px] bg-[#aaaaaaff] rounded-full"></div>
                   <p>Presale</p>
                 </div>
                 <div className="flex flex-row items-center gap-1">
@@ -618,7 +618,7 @@ const PresalesDetails = () => {
             <div className="flex flex-col">
               <div className="flex flex-row justify-between py-4 border-b border-[#2C2C2C] text-white text-base">
                 <p>Lock Addresses:</p>
-                <p className="text-[#FCBF07]">0x1aE...482E3</p>
+                <p className="text-[#aaaaaaff]">0x1aE...482E3</p>
               </div>
               <div className="flex flex-row justify-between py-4 border-b border-[#2C2C2C] text-white text-base">
                 <p>100,000,000</p>
@@ -636,7 +636,7 @@ const PresalesDetails = () => {
           </div>
         </div>
 
-        <div className="bg-[#1B1B1B] rounded-[16px]">
+        <div className="bg-[#000000ff] rounded-[16px]">
           <div className="pt-6 pb-4 text-center text-white text-2xl border-b border-[#2C2C2C]">
             Buyback Info
           </div>
